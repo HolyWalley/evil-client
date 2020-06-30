@@ -90,6 +90,7 @@ class Evil::Client
       when :yaml      then "application/yaml"
       when :form      then "application/x-www-form-urlencoded"
       when :multipart then "multipart/form-data; boundary=#{boundary}"
+      when :vdn       then "application/vnd.api+json"
       end
     end
   end

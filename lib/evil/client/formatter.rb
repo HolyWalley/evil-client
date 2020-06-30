@@ -21,6 +21,7 @@ class Evil::Client
       return to_yaml(source) if format == :yaml
       return to_form(source) if format == :form
       return to_text(source) if format == :text
+      return to_json(source) if format == :vdn
 
       to_multipart(source, opts)
     end

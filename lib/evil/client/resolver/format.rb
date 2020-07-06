@@ -26,6 +26,6 @@ class Evil::Client
                            " :#{LIST.join(', :')}."
     end
 
-    LIST = %i[json yaml form text multipart vdn].freeze
+    LIST = %i[json yaml form text multipart vnd].freeze
   end
 end
